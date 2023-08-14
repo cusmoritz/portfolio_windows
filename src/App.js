@@ -18,7 +18,7 @@ function App() {
         
           <menu role="tablist">
             <li role="tab" selected="true" label="Home"><a href="/">Home</a></li>
-            <li role="tab" selected="false" label="Blog"><a href="/blog">Blog</a></li>
+            <li role="tab" selected="false" label="Blog"><a href="/blog">Musings</a></li>
             <li role="tab" selected="false" label="Projects"><a href="/projects">Projects</a></li>
             {/* <li role="tab" selected="false" label="Contact"><a href="/contact">Contact</a></li> */}
           </menu>
@@ -27,16 +27,14 @@ function App() {
           <div className='main-content'>
             <h4>Welcome to my home on the World Wide Web! 🌐</h4>
             <ul className='home-tree'>
-              <li>Personal Blog</li>
-              <details>
-                <summary>Work and Interests</summary>
+              <li>Musings</li>
+              <li>Work and Interests</li>
                 <ul>
                   <li>Copy editor ✒️</li>
                   <li>Software developer 💾</li>
                   <li>News 🗞️</li>
                   <li>Skiing ⛷️</li>
                 </ul>
-              </details>
               
               {/* <li>Work and Interests
                 <ul>
@@ -47,7 +45,7 @@ function App() {
                 </ul>
               </li> */}
               <li>
-                <details>
+                <details closed>
                   <summary>Links:</summary>
                   <ul>
                     <li>Github 🤖</li>

@@ -1,11 +1,10 @@
 .App {
-  text-align: center;
   background-color: rgb(19, 195, 195);
   height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title-bar {
@@ -22,32 +21,21 @@
 .home-tree {
   background-color: white;
   box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
-  display:flex;
-  flex-direction: column;
 }
 
 .home-tree li {
   list-style-type: none;
-  display: block;
 }
 
 details>summary::before {
   content: "+"
 }
 
-ul.home-tree li::before {
-  border-bottom: 1px dotted grey;
-  display: block;
-  width: 12px;
-  height: 6px;
-  content: "";
-  position: absolute;
-
+.home-tree ul {
+  border-left: 1px dotted gray;
+  padding-left: 16px;
+  margin-left: 10px;
 }
-
-/* .home-tree ul ul {
-  list-style-type: disc;
-} */
 
 summary::marker {
   content: none;
@@ -59,6 +47,20 @@ ul.home-tree details[open]>summary:before {
 
 ul.home-tree details[closed]>summary:before {
   content: "+";
+}
+
+ul.home-tree ul>li:before{
+  border-bottom: 1px dotted grey;
+  content: "";
+  display: block;
+  left: -16px;
+  position: relative;
+  top: 15px;
+  width: 12px;
+}
+
+ul>li>details>summary {
+  padding-left: 6px;
 }
 
 .title-text {
@@ -85,39 +87,4 @@ menu {
 .title-bar {
   display: flex;
   align-content: space-between;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
