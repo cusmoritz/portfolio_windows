@@ -1,5 +1,41 @@
 .App {
   text-align: center;
+  background-color: rgb(19, 195, 195);
+  height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-bar {
+  background-color: navy;
+}
+
+.title-text {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.window-container {
+  border: .5px black solid;
+  background-color: silver;
+  min-height: fit-content;
+  max-height: calc(100% - 50px);
+}
+
+menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 -2px;
+  padding-left: 3px;
+  position: relative;
+  text-indent: 0;
+}
+
+.title-bar {
+  display: flex;
+  align-content: space-between;
 }
 
 .App-logo {
