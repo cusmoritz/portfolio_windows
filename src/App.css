@@ -22,10 +22,43 @@
 .home-tree {
   background-color: white;
   box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+  display:flex;
+  flex-direction: column;
 }
 
 .home-tree li {
   list-style-type: none;
+  display: block;
+}
+
+details>summary::before {
+  content: "+"
+}
+
+ul.home-tree li::before {
+  border-bottom: 1px dotted grey;
+  display: block;
+  width: 12px;
+  height: 6px;
+  content: "";
+  position: absolute;
+
+}
+
+/* .home-tree ul ul {
+  list-style-type: disc;
+} */
+
+summary::marker {
+  content: none;
+}
+
+ul.home-tree details[open]>summary:before {
+  content: "-";
+}
+
+ul.home-tree details[closed]>summary:before {
+  content: "+";
 }
 
 .title-text {

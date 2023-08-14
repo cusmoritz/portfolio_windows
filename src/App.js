@@ -28,14 +28,24 @@ function App() {
             <h4>Welcome to my home on the World Wide Web! 🌐</h4>
             <ul className='home-tree'>
               <li>Personal Blog</li>
-              <li>Work and Interests
+              <details>
+                <summary>Work and Interests</summary>
                 <ul>
                   <li>Copy editor ✒️</li>
                   <li>Software developer 💾</li>
                   <li>News 🗞️</li>
                   <li>Skiing ⛷️</li>
                 </ul>
-              </li>
+              </details>
+              
+              {/* <li>Work and Interests
+                <ul>
+                  <li>Copy editor ✒️</li>
+                  <li>Software developer 💾</li>
+                  <li>News 🗞️</li>
+                  <li>Skiing ⛷️</li>
+                </ul>
+              </li> */}
               <li>
                 <details>
                   <summary>Links:</summary>
