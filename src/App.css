@@ -10,6 +10,22 @@
 
 .title-bar {
   background-color: navy;
+  background: linear-gradient(90deg, navy, #1084d0);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content-container {
+  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+}
+
+.home-tree {
+  background-color: white;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+}
+
+.home-tree li {
+  list-style-type: none;
 }
 
 .title-text {
