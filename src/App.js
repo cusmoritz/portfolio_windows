@@ -3,6 +3,7 @@ import { Blog } from './Blog';
 import { Contact } from './Contact';
 import { Projects } from './Projects';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
