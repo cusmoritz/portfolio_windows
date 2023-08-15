@@ -17,9 +17,9 @@ function App() {
         </div>
         
           <menu role="tablist">
-            <li role="tab" selected="true" label="Home"><a href="/">Home</a></li>
-            <li role="tab" selected="false" label="Blog"><a href="/blog">Musings</a></li>
-            <li role="tab" selected="false" label="Projects"><a href="/projects">Projects</a></li>
+            <li role="tab" selected="true" aria-selected="true" label="Home"><a href="/">Home</a></li>
+            <li role="tab" selected="false" aria-selected="false" label="Blog"><a href="/blog">Musings</a></li>
+            <li role="tab" selected="false" aria-selected="false" label="Projects"><a href="/projects">Projects</a></li>
             {/* <li role="tab" selected="false" label="Contact"><a href="/contact">Contact</a></li> */}
           </menu>
         

@@ -24,10 +24,48 @@
   padding: 3px;
 }
 
-.main-content-container {
-  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+.title-text {
+  font-weight: 900;
+  color: white;
   padding: 3px;
-  margin: 8px;
+}
+
+button {
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+  background-color: #c0c0c0;
+  min-height: 16px;
+  min-width: 16px;
+}
+
+menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 -2px;
+  position: relative;
+  text-indent: 0;
+  padding: 3px 3px 1px 3px;
+}
+
+menu>li {
+  padding: 6px;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+  border-top-left-radius: 3px;
+}
+
+menu>li[aria-selected="true"] {
+  z-index: 3;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+}
+
+menu>li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-content-container {
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px #808080, inset 2px 2px #fff;
+  padding: 3px;
+  margin: 1px;
 }
 
 .main-content {
@@ -66,13 +104,6 @@ ul.home-tree details[closed]>summary:before {
   content: "+";
 }
 
-button {
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-  background-color: #c0c0c0;
-  min-height: 14px;
-  min-width: 16px;
-}
-
 ul.home-tree ul>li:before{
   border-bottom: 1px dotted grey;
   content: "";
@@ -87,27 +118,11 @@ ul>li>details>summary {
   padding-left: 6px;
 }
 
-.title-text {
-  color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: 3px;
-}
-
 .window-container {
-  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px #808080, inset 2px 2px #fff;
   background-color: silver;
   min-height: fit-content;
   max-height: calc(100% - 50px);
-  padding: 3px;
-}
-
-menu {
-  display: flex;
-  list-style-type: none;
-  margin: 0 0 -2px;
-  padding-left: 3px;
-  position: relative;
-  text-indent: 0;
   padding: 3px;
 }
 
