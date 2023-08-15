@@ -48,13 +48,20 @@ menu {
 
 menu>li {
   padding: 6px;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-  border-top-left-radius: 3px;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px #808080, inset 2px 2px #dfdfdf;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 menu>li[aria-selected="true"] {
   z-index: 3;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+  background: silver;
+  margin-top: -2px;
+  box-shadow: inset -1px 0 #0a0a0a, inset 1px 1px #dfdfdf, inset -2px 0 grey, inset 2px 2px #fff;
+
+  /* right left bottom top */
+  /* offset-x, offset-y */
+
 }
 
 menu>li a {
@@ -74,7 +81,7 @@ menu>li a {
 
 .home-tree {
   background-color: white;
-  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px #808080, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
   padding: 6px;
 }
 
@@ -87,7 +94,7 @@ details>summary::before {
 }
 
 .home-tree ul {
-  border-left: 1px dotted gray;
+  border-left: 1px dotted #808080;
   padding-left: 16px;
   margin-left: 10px;
 }
@@ -105,7 +112,7 @@ ul.home-tree details[closed]>summary:before {
 }
 
 ul.home-tree ul>li:before{
-  border-bottom: 1px dotted grey;
+  border-bottom: 1px dotted #808080;
   content: "";
   display: block;
   left: -16px;
