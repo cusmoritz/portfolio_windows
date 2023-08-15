@@ -1,3 +1,12 @@
+@font-face {
+  font-family: msSans;
+  src: url(MS\ Sans\ Serif\ 8pt.ttf);
+}
+
+* {
+  font-family: msSans;
+}
+
 .App {
   background-color: rgb(19, 195, 195);
   height: 100vh;
@@ -7,16 +16,12 @@
   justify-content: center;
 }
 
-@font-face {
-  font-family: "MS Sans";
-  src: url("MS Sans Serif 8pt.ttf");
-}
-
 .title-bar {
   background-color: navy;
   background: linear-gradient(90deg, navy, #1084d0);
   display: flex;
   justify-content: space-between;
+  padding: 3px;
 }
 
 .main-content-container {
@@ -61,6 +66,13 @@ ul.home-tree details[closed]>summary:before {
   content: "+";
 }
 
+button {
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+  background-color: #c0c0c0;
+  min-height: 14px;
+  min-width: 16px;
+}
+
 ul.home-tree ul>li:before{
   border-bottom: 1px dotted grey;
   content: "";
@@ -78,6 +90,7 @@ ul>li>details>summary {
 .title-text {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 3px;
 }
 
 .window-container {

@@ -13,7 +13,7 @@ function App() {
       <div className='window-container'>
         <div className='title-bar'>
           <div className='title-text'>www.marcus.me</div>
-          <button className='help-button'>?</button>
+          <button className='help-button'><strong>?</strong></button>
         </div>
         
           <menu role="tablist">
@@ -25,7 +25,7 @@ function App() {
         
         <div className='main-content-container' role="tabpanel">
           <div className='main-content' >
-            <h4>Welcome to my home on the World Wide Web! 🌐</h4>
+            <h2>Welcome to my home on the World Wide Web! 🌐</h2>
             <ul className='home-tree'>
               <li>Musings</li>
               <li>Work and Interests</li>
