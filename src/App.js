@@ -23,8 +23,8 @@ function App() {
             {/* <li role="tab" selected="false" label="Contact"><a href="/contact">Contact</a></li> */}
           </menu>
         
-        <div className='main-content-container'>
-          <div className='main-content'>
+        <div className='main-content-container' role="tabpanel">
+          <div className='main-content' >
             <h4>Welcome to my home on the World Wide Web! 🌐</h4>
             <ul className='home-tree'>
               <li>Musings</li>

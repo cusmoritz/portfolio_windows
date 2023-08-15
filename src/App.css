@@ -7,6 +7,11 @@
   justify-content: center;
 }
 
+@font-face {
+  font-family: "MS Sans";
+  src: url("MS Sans Serif 8pt.ttf");
+}
+
 .title-bar {
   background-color: navy;
   background: linear-gradient(90deg, navy, #1084d0);
@@ -16,11 +21,18 @@
 
 .main-content-container {
   box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+  padding: 3px;
+  margin: 8px;
+}
+
+.main-content {
+  padding: 6px;
 }
 
 .home-tree {
   background-color: white;
   box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+  padding: 6px;
 }
 
 .home-tree li {
@@ -69,10 +81,11 @@ ul>li>details>summary {
 }
 
 .window-container {
-  border: .5px black solid;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
   background-color: silver;
   min-height: fit-content;
   max-height: calc(100% - 50px);
+  padding: 3px;
 }
 
 menu {
@@ -82,9 +95,11 @@ menu {
   padding-left: 3px;
   position: relative;
   text-indent: 0;
+  padding: 3px;
 }
 
 .title-bar {
   display: flex;
   align-content: space-between;
+  padding: 3px, 2px, 3px, 3px;
 }
