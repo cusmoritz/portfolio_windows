@@ -43,7 +43,7 @@ menu {
   margin: 0 0 -2px;
   position: relative;
   text-indent: 0;
-  padding: 3px 3px 1px 3px;
+  padding: 3px 3px 1px 1px;
 }
 
 menu>li {
@@ -58,7 +58,7 @@ menu>li[aria-selected="true"] {
   background: silver;
   margin-top: -2px;
   box-shadow: inset -1px 0 #0a0a0a, inset 1px 1px #dfdfdf, inset -2px 0 grey, inset 2px 2px #fff;
-
+margin-bottom: -3px;
   /* right left bottom top */
   /* offset-x, offset-y */
 
