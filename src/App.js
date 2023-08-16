@@ -1,6 +1,5 @@
 import { Home } from './Home';
 import { Blog } from './Blog';
-import { Contact } from './Contact';
 import { Projects } from './Projects';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
