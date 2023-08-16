@@ -130,6 +130,8 @@ ul>li>details>summary {
   background-color: silver;
   min-height: fit-content;
   max-height: calc(100% - 50px);
+  min-width: 50%;
+  max-width: 80%;
   padding: 3px;
 }
 
