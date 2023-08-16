@@ -6,21 +6,21 @@ export const Blog = () => {
             <menu role="tablist">
             <li 
                 role="tab" 
-                selected="true" 
+                selected={false}
                 aria-selected="false" 
                 label="Home">
                     <a href="/">Home</a>
             </li>
             <li 
                 role="tab" 
-                selected="false" 
+                selected={true}
                 aria-selected="true" 
                 label="Blog">
                     <a href="/blog">Musings</a>
             </li>
             <li 
                 role="tab" 
-                selected="false" 
+                selected={false} 
                 aria-selected="false" 
                 label="Projects">
                     <a href="/projects">Projects</a>
@@ -40,7 +40,7 @@ export const Blog = () => {
                   <li>Skiing ⛷️</li>
                 </ul>
               <li>
-                <details closed>
+                <details closed="true">
                   <summary>Links:</summary>
                   <ul>
                     <li>Github 🤖</li>

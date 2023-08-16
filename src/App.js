@@ -3,13 +3,33 @@ import { Blog } from './Blog';
 import { Projects } from './Projects';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
+
+  let dragItem = document.getElementById("#title-drag");
+  let container = document.getElementById("#draggable");
+  let active = false;
+  let currentX;
+  let currentY;
+  let initialX;
+  let initialY;
+  let xOffset = 0;
+  let yOffset = 0;
+
+  const [drag, setDrag] = useState(false);
+
+  const dragTitle = () => {
+    if (drag === true) {
+      console.log('true!')
+    }
+  }
+
   return (
     <BrowserRouter>
     <div className="App">
-      <div className='window-container'>
-        <div className='title-bar'>
+      <div className='window-container' id='draggable'>
+        <div className='title-bar' id='title-drag' onMouseDown={(event) => {event.preventDefault(); setDrag(true); dragTitle()}}>
           <div className='title-text'>www.marcus.me</div>
           <button className='help-button'><strong>?</strong></button>
         </div>

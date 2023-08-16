@@ -136,6 +136,7 @@ ul>li>details>summary {
 }
 
 .title-bar {
+  cursor: move;
   display: flex;
   align-content: space-between;
   padding: 3px, 2px, 3px, 3px;
