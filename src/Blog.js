@@ -37,17 +37,51 @@ export const Blog = () => {
           <div className='main-content' >
             <h2>This is where I would put a personal blog? ✒️</h2>
             <ul className='home-tree'>
-              <li>Musings</li>
-              <li>Work and Interests</li>
-                <ul>
-                  <li>Copy editor ✒️</li>
-                  <li>Software developer 💾</li>
-                  <li>News 🗞️</li>
-                  <li>Skiing ⛷️</li>
-                </ul>
+              <p className="blog-p">Writings and articles for various sites / papers / magazines in reverse chronological order. </p>
+              <p className="blog-p">Note to readers: Not all of these are good, and many are pretty old! It was an important part of my life, so worth cataloging.</p>
               <li>
                 <details closed="true">
-                  <summary>Links:</summary>
+                  <summary>Vail Daily (2017-2019)</summary>
+                  <ul>
+                    <li>Github 🤖</li>
+                    <li>Email ✉️</li>
+                    <li>LinkedIn 🔗</li>
+                  </ul>
+                </details>
+                <details closed="true">
+                  <summary>Playboy.com (2014-2015)</summary>
+                  <ul>
+                    <li>Github 🤖</li>
+                    <li>Email ✉️</li>
+                    <li>LinkedIn 🔗</li>
+                  </ul>
+                </details>
+                <details closed="true">
+                  <summary>303 Magazine (2014-2015)</summary>
+                  <ul>
+                    <li>Github 🤖</li>
+                    <li>Email ✉️</li>
+                    <li>LinkedIn 🔗</li>
+                  </ul>
+                </details>
+                <details closed="true">
+                  <summary>Medium.com (2015-2016)</summary>
+                  <ul>
+                    <li>Github 🤖</li>
+                    <li>Email ✉️</li>
+                    <li>LinkedIn 🔗</li>
+                  </ul>
+                </details>
+                <details closed="true">
+                  <summary>Rooster Magazine (2011-2013)</summary>
+                  <ul>
+                    <li>Github 🤖</li>
+                    <li>Email ✉️</li>
+                    <li>LinkedIn 🔗</li>
+                  </ul>
+                </details>
+                <details closed="true">
+                  <summary>The Rocky Mountain Collegian (2011-2014)</summary>
                   <ul>
                     <li>Github 🤖</li>
                     <li>Email ✉️</li>

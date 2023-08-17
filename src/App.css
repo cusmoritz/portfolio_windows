@@ -111,6 +111,10 @@ ul.home-tree details[closed]>summary:before {
   content: "+";
 }
 
+.blog-p {
+  font-style: italic;
+}
+
 ul.home-tree ul>li:before{
   border-bottom: 1px dotted #808080;
   content: "";
