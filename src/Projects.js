@@ -3,6 +3,10 @@ import React from "react";
 export const Projects = () => {
     return (
         <>
+            <div className='title-bar' id='title-drag'>
+              <div className='title-text'>www.marcus.me > projects</div>
+              <button className='help-button'><strong>?</strong></button>
+            </div>
             <menu role="tablist">
             <li 
                 role="tab" 

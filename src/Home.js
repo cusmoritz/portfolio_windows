@@ -3,7 +3,10 @@ import React from "react";
 export const Home = () => {
     return (
         <>
-
+          <div className='title-bar' id='title-drag'>
+            <div className='title-text'>www.marcus.me</div>
+            <button className='help-button'><strong>?</strong></button>
+          </div>
         <menu role="tablist">
             <li 
                 role="tab" 

@@ -29,10 +29,10 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <div className='window-container' id='draggable'>
-        <div className='title-bar' id='title-drag' onMouseDown={(event) => {event.preventDefault(); setDrag(true); dragTitle()}}>
+        {/* <div className='title-bar' id='title-drag' onMouseDown={(event) => {event.preventDefault(); setDrag(true); dragTitle()}}>
           <div className='title-text'>www.marcus.me</div>
           <button className='help-button'><strong>?</strong></button>
-        </div>
+        </div> */}
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/blog" element={<Blog/>} />

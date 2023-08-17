@@ -1,8 +1,14 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 
 export const Blog = () => {
+
     return (
         <>
+            <div className='title-bar' id='title-drag'>
+              <div className='title-text'>www.marcus.me > blog</div>
+              <button className='help-button'><strong>?</strong></button>
+            </div>
             <menu role="tablist">
             <li 
                 role="tab" 
