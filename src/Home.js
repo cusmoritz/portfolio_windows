@@ -56,6 +56,9 @@ export const Home = () => {
             </ul>
           </div>
         </div>
+        <div className="status-bar">
+          <span className="status-text">10 object(s)</span>
+        </div>
         </>
     )
 };

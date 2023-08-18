@@ -57,6 +57,10 @@ export const Projects = () => {
           </div>
         </div>
 
+        <div className="status-bar">
+          <span className="status-text">5 object(s)</span>
+        </div>
+
         </>
     )
 }

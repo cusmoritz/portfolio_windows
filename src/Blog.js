@@ -130,6 +130,10 @@ export const Blog = () => {
           </div>
         </div>
 
+        <div className="status-bar">
+          <span className="status-text">37 object(s)</span>
+        </div>
+
         </>
     )
 }
