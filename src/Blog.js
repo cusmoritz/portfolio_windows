@@ -67,7 +67,7 @@ export const Blog = () => {
                 <details closed="true">
                   <summary>303 Magazine (2014-2015)</summary>
                   <ul>
-                    <li>What It's Like To Go From Homebrewer To GABF Contender — Meet Sara Goodwin (<a href="https://303magazine.com/2015/09/what-its-like-to-go-from-homebrewer-to-gabf-contender-meet-sara-goodwin/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>What It's Like To Go From Homebrewer To GABF Contender — Meet Sara Goodwin (<a href="https://303magazine.com/2015/09/what-its-like-to-go-from-homebrewer-to-gabf-contender-meet-sara-goodwin/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20230203225737/https://303magazine.com/2015/09/what-its-like-to-go-from-homebrewer-to-gabf-contender-meet-sara-goodwin/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
                     <li>Hops Herald: Craft Beer, An Industry of Collaboration (<a href="https://303magazine.com/2015/03/hops-herald-craft-beer-an-industry-of-collaboration/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20230818004930/https://303magazine.com/2015/03/hops-herald-craft-beer-an-industry-of-collaboration/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
@@ -81,23 +81,23 @@ export const Blog = () => {
 
                     <li>Hops Herald: Meet Odyssey Beerwerks (<a href="https://303magazine.com/2015/02/hops-herald-meet-odyssey-beerwerks/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20230818010147/https://303magazine.com/2015/02/hops-herald-meet-odyssey-beerwerks/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Hops Herald: How Colorado Breweries Name Beer (<a href="https://303magazine.com/2015/01/hops-herald-colorado-breweries-name-beer/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Hops Herald: How Colorado Breweries Name Beer (<a href="https://303magazine.com/2015/01/hops-herald-colorado-breweries-name-beer/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20230201055208/https://303magazine.com/2015/01/hops-herald-colorado-breweries-name-beer/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Hops Herald: The Bomber Cave At Molly's Spirits (<a href="https://303magazine.com/2015/01/hops-herald-bomber-cave-mollys-spirits/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Hops Herald: The Bomber Cave At Molly's Spirits (<a href="https://303magazine.com/2015/01/hops-herald-bomber-cave-mollys-spirits/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20230127045327/https://303magazine.com/2015/01/hops-herald-bomber-cave-mollys-spirits/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Hops Herald: 5 Denver Black IPAs (<a href="https://303magazine.com/2015/01/hops-herald-5-denver-black-ipas/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Hops Herald: 5 Denver Black IPAs (<a href="https://303magazine.com/2015/01/hops-herald-5-denver-black-ipas/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20210518214822/https://303magazine.com/2015/01/hops-herald-5-denver-black-ipas/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Hops Herald: 5 Sour Beers to Try In Denver Now (<a href="https://303magazine.com/2014/12/hops-herald-5-sour-beers-try-denver-now/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Hops Herald: 5 Sour Beers to Try In Denver Now (<a href="https://303magazine.com/2014/12/hops-herald-5-sour-beers-try-denver-now/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20211129094602/https://303magazine.com/2014/12/hops-herald-5-sour-beers-try-denver-now/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Hops Herald: 8 Great Dark Colorado Beers (<a href="https://303magazine.com/2014/12/hops-herald-eight-great-colorado-dark-beers/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Hops Herald: 8 Great Dark Colorado Beers (<a href="https://303magazine.com/2014/12/hops-herald-eight-great-colorado-dark-beers/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20230127115544/https://303magazine.com/2014/12/hops-herald-eight-great-colorado-dark-beers/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Hops Herald: Parade Of Darks Preview (<a href="https://303magazine.com/2014/12/hops-herald-parade-darks-preview/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Hops Herald: Parade Of Darks Preview (<a href="https://303magazine.com/2014/12/hops-herald-parade-darks-preview/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20181220142714/https://303magazine.com/2014/12/hops-herald-parade-darks-preview/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Beer Banter: Thanksgiving Day Pairings (<a href="https://303magazine.com/2014/11/beer-banter-thanksgiving-beer-pairings/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Beer Banter: Thanksgiving Day Pairings (<a href="https://303magazine.com/2014/11/beer-banter-thanksgiving-beer-pairings/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20190212180036/https://303magazine.com/2014/11/beer-banter-thanksgiving-beer-pairings/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Beer Banter: 2014 Beer And Bacon Festival Roundup (<a href="https://303magazine.com/2014/11/beer-banter-2014-bacon-beer-festival-roundup/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Beer Banter: 2014 Beer And Bacon Festival Roundup (<a href="https://303magazine.com/2014/11/beer-banter-2014-bacon-beer-festival-roundup/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20190226220424/https://303magazine.com/2014/11/beer-banter-2014-bacon-beer-festival-roundup/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
-                    <li>Beer Banter: The Third Annual Denver Bacon and Beer Festival (<a href="https://303magazine.com/2014/11/third-annual-denver-bacon-and-beer-festival/" target="_blank" rel="noreferrer">link</a>) (<a href="" target="_blank" rel="noreferrer">archived link</a>)</li>
+                    <li>Beer Banter: The Third Annual Denver Bacon and Beer Festival (<a href="https://303magazine.com/2014/11/third-annual-denver-bacon-and-beer-festival/" target="_blank" rel="noreferrer">link</a>) (<a href="https://web.archive.org/web/20181220142739/https://303magazine.com/2014/11/third-annual-denver-bacon-and-beer-festival/" target="_blank" rel="noreferrer">archived link</a>)</li>
 
                   </ul>
                 </details>
