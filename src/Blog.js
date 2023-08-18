@@ -5,7 +5,7 @@ export const Blog = () => {
 
   // TODO: 
 
-  // Add archived links to 303 Magazine
+  // Add Medium, rooster, Rocky Mountain
 
   // ##
 
@@ -132,6 +132,7 @@ export const Blog = () => {
 
         <div className="status-bar">
           <span className="status-text">37 object(s)</span>
+          <span className="status-size">15.80MB</span>
         </div>
 
         </>

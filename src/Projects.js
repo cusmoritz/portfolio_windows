@@ -59,6 +59,7 @@ export const Projects = () => {
 
         <div className="status-bar">
           <span className="status-text">5 object(s)</span>
+          <span className="status-size">6.30MB</span>
         </div>
 
         </>

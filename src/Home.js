@@ -58,6 +58,7 @@ export const Home = () => {
         </div>
         <div className="status-bar">
           <span className="status-text">10 object(s)</span>
+          <span className="status-size">9.70MB</span>
         </div>
         </>
     )
