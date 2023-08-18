@@ -48,16 +48,35 @@ export const Projects = () => {
                     <li><u>Learned:</u> A lot about CSS! Including <i>box-shadow</i>, <i>details</i> and <i>summary</i>, fonts, and those damn tabs at the top of the page. Finicky.</li>
                     <li><u>Concurrent users:</u> 1 (one)</li>
                   </ul>
-                </details>
+              </details>
+              </li>
+
+              <li>
               <details closed="true">
                   <summary>RSS Feed</summary>
                   <ul>
                     <li><u>Title:</u> Streamer (needs a better name I know)</li>
                     <li><u>Link:</u> <a href="http://rss-feed-pwdx.onrender.com/">rss-feed-pwdx.onrender.com</a></li>
+                    <li><u>GitHub Link:</u> <a href="https://github.com/cusmoritz/RSS-attempte-1">github.com/cusmoritz/RSS-attempte-1</a></li>
                     <li><u>Purpose:</u> Personalized news aggregation.</li>
                     <li><u>Inspiration:</u> Not content with the other <i>social media</i>-esque ways to gather news, I decided to build my own. RSS is a valuable technology, and still completely works! Everything old is new again etc etc.</li>
                     <li><u>Built with:</u> Javascript, React, Express.JS, PostgreSQL, CSS, XML.</li>
-                    <li><u>Learned:</u> Not even sure where to start. I learned a little about XML; a lot about APIs and URLs; a ton about React state; a little about recommitting to Git after I broke it several times; at least enough to deploy it; and enough to be able to log in and register a new user locally.</li>
+                    <li><u>Learned:</u> Not even sure where to start. As the first major personal project after finishing my certificate program, I learned a little about XML; a lot about APIs and URLs; a ton about React state; a little about recommitting to Git after I broke it several times; at least enough to deploy it; and got better at local storage with registering and signing in a user.</li>
+                    <li><u>Concurrent users:</u> 1 (one). Could be more; don't forget to smash that subscribe button!</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+              <details closed="true">
+                  <summary>Pokemon Shopper</summary>
+                  <ul>
+                    <li><u>Title:</u> Pokemon Shopper</li>
+                    <li><u>Link:</u> <a href="https://card-shopper.onrender.com/">card-shopper.onrender.com</a></li>
+                    <li><u>GitHub Link:</u> <a href="https://github.com/CharizardsBlaze/Pokemon-Shopper">github.com/CharizardsBlaze/Pokemon-Shopper</a></li>
+                    <li><u>Purpose:</u> E-commerce shopping website.</li>
+                    <li><u>Inspiration:</u> Pokemon, and their collectability. Also we needed a capstone project for our certificate program.</li>
+                    <li><u>Built with:</u> Javascript, React, Express.JS, PostgreSQL, CSS, Jest, Bcrypt, Stripe, JSON web tokens.</li>
+                    <li><u>Learned:</u> Not even sure where to start. As the first major personal project after finishing my certificate program, I learned a little about XML; a lot about APIs and URLs; a ton about React state; a little about recommitting to Git after I broke it several times; at least enough to deploy it; and got better at local storage with registering and signing in a user.</li>
                     <li><u>Concurrent users:</u> 1 (one). Could be more; don't forget to smash that subscribe button!</li>
                   </ul>
                 </details>

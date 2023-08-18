@@ -112,7 +112,7 @@ details>summary::before {
 }
 
 .status-text {
-  padding-left: 5px;
+  padding-left: 10px;
   box-shadow: inset -1px -1px #fff, inset 1px 1px #808080, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
   padding-right: 10px;
   display: flex;
