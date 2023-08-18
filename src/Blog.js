@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 
 export const Blog = () => {
 
@@ -12,7 +11,7 @@ export const Blog = () => {
     return (
         <>
             <div className='title-bar' id='title-drag'>
-              <div className='title-text'>www.marcus.me > blog</div>
+              <div className='title-text'>www.marcus.me {'>'} blog</div>
               <button className='help-button'><strong>?</strong></button>
             </div>
             <menu role="tablist">
@@ -41,7 +40,7 @@ export const Blog = () => {
 
         <div className='main-content-container' role="tabpanel">
           <div className='main-content' >
-            <h2>This is where I would put a personal blog? ✒️</h2>
+            <h2>Historical writings / musings / personal blog (tk) ✒️</h2>
             <ul className='home-tree'>
               <p className="blog-p">Writings and articles for various sites / papers / magazines in reverse chronological order. </p>
               <p className="blog-p">Note to readers: Not all of these are good, and many are pretty old! It was an important part of my life, so worth cataloging.</p>
