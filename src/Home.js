@@ -36,20 +36,25 @@ export const Home = () => {
             <h2>Welcome to my home on the World Wide Web! 🌐</h2>
             <ul className='home-tree'>
               <li>Musings</li>
-              <li>Work and Interests</li>
+              <li>Work:</li>
                 <ul>
-                  <li>Copy editor ✒️</li>
                   <li>Software developer 💾</li>
-                  <li>News 🗞️</li>
+                  <li>CDL driver 🚛</li>
+                  <li>Copy editor ✒️</li>
+                </ul>
+                <li>Interests:</li>
+                <ul>
                   <li>Skiing ⛷️</li>
+                  <li>Local news 📰</li>
+                  <li>Music / radio 📻</li>
                 </ul>
               <li>
                 <details closed="true">
-                  <summary>Links:</summary>
+                  <summary>Contact links:</summary>
                   <ul>
-                    <li>Github 🤖</li>
-                    <li>Email ✉️</li>
-                    <li>LinkedIn 🔗</li>
+                    <li><a href="https://github.com/cusmoritz" target="_blank" rel="noreferrer">Github</a> 🤖</li>
+                    <li><a href="mailto:cus.moritz@gmail.com">Email</a> ✉️</li>
+                    <li><a href="https://www.linkedin.com/in/marcusmoritz/" target="_blank" rel="noreferrer">LinkedIn</a> 🔗</li>
                   </ul>
                 </details>
               </li>
