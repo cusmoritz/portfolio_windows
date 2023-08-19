@@ -133,8 +133,8 @@ export const Projects = () => {
         </div>
 
         <div className="status-bar">
-          <span className="status-text">5 object(s)</span>
-          <span className="status-size">6.30MB</span>
+          <span className="status-text">6 object(s)</span>
+          <span className="status-size">7.30MB</span>
         </div>
 
         </>
