@@ -10,6 +10,7 @@ export const Blog = () => {
 
     return (
         <>
+          <div className='window-container' id='draggable'>
             <div className='title-bar' id='title-drag'>
               <div className='title-text'>www.marcus.me {'>'} blog</div>
               <button className='help-button'><strong>?</strong></button>
@@ -103,25 +104,21 @@ export const Blog = () => {
                 <details closed="true">
                   <summary>Medium.com (2015-2016)</summary>
                   <ul>
-                    <li>Github 🤖</li>
-                    <li>Email ✉️</li>
-                    <li>LinkedIn 🔗</li>
+                    <li>TK</li>
+                    <li>TK</li>
+                    <li>TK</li>
                   </ul>
                 </details>
                 <details closed="true">
                   <summary>Rooster Magazine (2011-2013)</summary>
                   <ul>
-                    <li>Github 🤖</li>
-                    <li>Email ✉️</li>
-                    <li>LinkedIn 🔗</li>
+                    <li>TK</li>
                   </ul>
                 </details>
                 <details closed="true">
                   <summary>The Rocky Mountain Collegian (2011-2014)</summary>
                   <ul>
-                    <li>Github 🤖</li>
-                    <li>Email ✉️</li>
-                    <li>LinkedIn 🔗</li>
+                    <li>TK</li>
                   </ul>
                 </details>
               </li>
@@ -129,11 +126,11 @@ export const Blog = () => {
           </div>
         </div>
 
-        <div className="status-bar">
-          <span className="status-text">37 object(s)</span>
-          <span className="status-size">15.80MB</span>
+          <div className="status-bar">
+            <span className="status-text">37 object(s)</span>
+            <span className="status-size">15.80MB</span>
+          </div>
         </div>
-
         </>
     )
 }

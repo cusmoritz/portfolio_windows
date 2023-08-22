@@ -7,6 +7,11 @@
   font-family: msSans;
 }
 
+/* @keyframes minimize {
+  from {bottom:auto}
+  to {position: fixed; bottom: 0;}
+} */
+
 .App {
   background-color: rgb(19, 195, 195);
   min-height: 100vh;
@@ -17,17 +22,39 @@
 }
 
 .title-bar {
-  background-color: navy;
   background: linear-gradient(90deg, navy, #1084d0);
   display: flex;
   justify-content: space-between;
+  cursor: move;
   padding: 3px;
+}
+
+.title-bar-min{
+  background: linear-gradient(90deg, navy, #1084d0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+  padding: 3px;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px #808080, inset 2px 2px #fff;
 }
 
 .title-text {
   font-weight: 900;
   color: white;
   padding: 3px;
+}
+
+#minimize {
+  /* animation-name: minimize;
+  animation-duration: ;
+  animation-duration: 1s; */
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px #808080, inset 2px 2px #fff;
+  background-color: silver;
+  width: 250px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 button {
@@ -45,6 +72,7 @@ menu {
   text-indent: 0;
   padding: 3px 3px 1px 1px;
 }
+
 
 menu>li {
   padding: 6px;
@@ -159,7 +187,7 @@ ul>li>details>summary {
   padding-left: 6px;
 }
 
-.window-container {
+#window-container {
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px #808080, inset 2px 2px #fff;
   background-color: silver;
   min-height: fit-content;
@@ -167,11 +195,4 @@ ul>li>details>summary {
   min-width: 70%;
   max-width: 70%;
   padding: 3px;
-}
-
-.title-bar {
-  cursor: move;
-  display: flex;
-  align-content: space-between;
-  padding: 3px, 2px, 3px, 3px;
 }

@@ -28,7 +28,7 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-      <div className='window-container' id='draggable'>
+
         {/* <div className='title-bar' id='title-drag' onMouseDown={(event) => {event.preventDefault(); setDrag(true); dragTitle()}}>
           <div className='title-text'>www.marcus.me</div>
           <button className='help-button'><strong>?</strong></button>
@@ -39,7 +39,6 @@ function App() {
           <Route path="/projects" element={<Projects/>} />
         </Routes>
       </div>
-    </div>
     </BrowserRouter>
   );
 }
