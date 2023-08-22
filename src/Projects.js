@@ -62,21 +62,6 @@ export const Projects = () => {
                       </ul>
                   </details>
                   </li>
-                  <li>
-                  <details closed="true">
-                      <summary>Weather Application</summary>
-                      <ul>
-                        <li><u>Title:</u> Chance of Rain</li>
-                        <li><u>Link:</u> None.</li>
-                        <li><u>GitHub Link:</u> <a href="https://github.com/cusmoritz/weather">github.com/cusmoritz/weather</a></li>
-                        <li><u>Purpose:</u> They say every relationship has two types of people: one person constantly checks the weather — the other person has no idea. My wife is the weather person. This is for her.</li>
-                        <li><u>Inspiration:</u> Literally my wife, who loves checking the weather.</li>
-                        <li><u>Built with:</u> React, <a href="https://developers.google.com/maps/documentation/javascript/geocoding">Google Geocoding Service API</a>, <a href="https://developers.google.com/maps/documentation/places/web-service/autocomplete#maps_http_places_autocomplete_amoeba_strict-txt">Google Place Autocomplete API</a>, <a href="https://www.weather.gov/documentation/services-web-api#/default/point">Weather.gov API</a>, Javascript, Express.JS, CSS. (Was planning on deploying with Rendner.)</li>
-                        <li><u>Learned:</u> Google's API service; more Express.JS functionality; Weather.gov functionality; auto-loading geolocation; pinging IP addresses for nearby latitude and longitude.</li>
-                        <li><u>Concurrent users:</u> 1 (one) very exhausted weather checker.</li>
-                      </ul>
-                  </details>
-                  </li>
 
                   <li>
                   <details closed="true">
@@ -94,6 +79,23 @@ export const Projects = () => {
                       </ul>
                     </details>
                   </li>
+
+                  <li>
+                  <details closed="true">
+                      <summary>Weather Application</summary>
+                      <ul>
+                        <li><u>Title:</u> Chance of Rain</li>
+                        <li><u>Link:</u> None.</li>
+                        <li><u>GitHub Link:</u> <a href="https://github.com/cusmoritz/weather">github.com/cusmoritz/weather</a></li>
+                        <li><u>Purpose:</u> They say every relationship has two types of people: one person constantly checks the weather — the other person has no idea. My wife is the weather person. This is for her.</li>
+                        <li><u>Inspiration:</u> Literally my wife, who loves checking the weather.</li>
+                        <li><u>Built with:</u> React, <a href="https://developers.google.com/maps/documentation/javascript/geocoding">Google Geocoding Service API</a>, <a href="https://developers.google.com/maps/documentation/places/web-service/autocomplete#maps_http_places_autocomplete_amoeba_strict-txt">Google Place Autocomplete API</a>, <a href="https://www.weather.gov/documentation/services-web-api#/default/point">Weather.gov API</a>, Javascript, Express.JS, CSS. (Was planning on deploying with Rendner.)</li>
+                        <li><u>Learned:</u> Google's API service; more Express.JS functionality; Weather.gov functionality; auto-loading geolocation; pinging IP addresses for nearby latitude and longitude.</li>
+                        <li><u>Concurrent users:</u> None, the Google API starts charging after 80 days, and we have windows in our house.</li>
+                      </ul>
+                  </details>
+                  </li>
+
                   <li>
                   <details closed="true">
                       <summary>E-commerce Application</summary>
