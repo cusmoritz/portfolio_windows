@@ -52,7 +52,7 @@ export const Home = () => {
           <div className='main-content-container' role="tabpanel">
           <div className='main-content'>
             <h2>Welcome to my home on the World Wide Web! 🌐</h2>
-              <ul className={minimize === true ? "home-tree-min" : "home-tree"}>
+              <ul className="home-tree">
                 <li><a href="/blog">Musings</a></li>
                 <li>Work:</li>
                   <ul>

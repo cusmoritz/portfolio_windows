@@ -1,6 +1,9 @@
 import React from "react";
+import { useState } from "react";
 
 export const Blog = () => {
+
+  const [minimize, setMinimize] = useState(false);
 
   // TODO: 
 
@@ -8,39 +11,46 @@ export const Blog = () => {
 
   // ##
 
-    return (
-        <>
-          <div className='window-container' id='draggable'>
-            <div className='title-bar' id='title-drag'>
-              <div className='title-text'>www.marcus.me {'>'} blog</div>
+  return (
+    <>
+      <div id={minimize === true ? "minimize" : "window-container"}>
+        <div className={minimize === true ? "title-bar-min" : "title-bar"}>
+          <div className='title-text'>www.marcus.me {">"} blog</div>
+            <div>
+              <button onClick={() => setMinimize(!minimize)}>_</button>
               <button className='help-button'><strong>?</strong></button>
             </div>
-            <menu role="tablist">
-            <li 
-                role="tab" 
-                selected={false}
-                aria-selected="false" 
-                label="Home">
-                    <a href="/">Home</a>
-            </li>
-            <li 
-                role="tab" 
-                selected={true}
-                aria-selected="true" 
-                label="Blog">
-                    <a href="/blog">Musings</a>
-            </li>
-            <li 
-                role="tab" 
-                selected={false} 
-                aria-selected="false" 
-                label="Projects">
-                    <a href="/projects">Projects</a>
-            </li>
-        </menu>
+        </div>
+
+        {minimize === true ? null : 
+        (
+        <>
+          <menu role="tablist">
+          <li
+            role="tab" 
+            selected={false}
+            aria-selected="false" 
+            label="Home">
+                <a href="/">Home</a>
+          </li>
+          <li 
+            role="tab" 
+            selected={true} 
+            aria-selected="true" 
+            label="Blog">
+                <a href="/blog">Musings</a>
+          </li>
+          <li 
+            role="tab" 
+            selected={false}
+            aria-selected="false" 
+            label="Projects">
+                <a href="/projects">Projects</a>
+          </li>
+          </menu>
 
         <div className='main-content-container' role="tabpanel">
-          <div className='main-content' >
+          <div className='main-content'>
             <h2>Historical writings / musings / personal blog (tk) ✒️</h2>
             <ul className='home-tree'>
               <p className="blog-p">Writings and articles for various sites / papers / magazines in reverse chronological order. </p>
@@ -126,11 +136,16 @@ export const Blog = () => {
           </div>
         </div>
 
-          <div className="status-bar">
-            <span className="status-text">37 object(s)</span>
-            <span className="status-size">15.80MB</span>
-          </div>
+        <div className="status-bar">
+          <span className="status-text">37 object(s)</span>
+          <span className="status-size">15.80MB</span>
         </div>
+
         </>
-    )
+      )}
+
+    </div>
+    </>
+  )
 }
+
