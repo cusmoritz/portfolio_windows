@@ -9,7 +9,7 @@ export const Projects = () => {
     <>
       <div id={minimize === true ? "minimize" : "window-container"}>
         <div className={minimize === true ? "title-bar-min" : "title-bar"}>
-          <div className='title-text'>www.marcus.me</div>
+          <div className='title-text'>www.marcus.me {">"} projects</div>
           <div>
             <button onClick={() => setMinimize(!minimize)}>_</button>
             <button className='help-button'><strong>?</strong></button>
