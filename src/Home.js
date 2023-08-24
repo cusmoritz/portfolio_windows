@@ -59,7 +59,7 @@ export const Home = () => {
                     <li><a href="/projects">Software developer</a> 💾</li>
                     <li>CDL driver 🚛</li>
                     <li>Copy editor ✒️</li>
-                    <li>Writer 📄</li>
+                    <li><a href="/blog">Writer</a> 📄</li>
                   </ul>
                   <li>Interests:</li>
                   <ul>
@@ -74,6 +74,7 @@ export const Home = () => {
                       <li><a href="https://github.com/cusmoritz" target="_blank" rel="noreferrer">Github</a> 🤖</li>
                       <li><a href="mailto:cus.moritz@gmail.com">Email</a> ✉️</li>
                       <li><a href="https://www.linkedin.com/in/marcusmoritz/" target="_blank" rel="noreferrer">LinkedIn</a> 🔗</li>
+                      <li><a href="/resume" target="_blank" rel="noreferrer">Resume</a> 🔖</li>
                     </ul>
                   </details>
                 </li>

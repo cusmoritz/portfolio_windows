@@ -7,6 +7,18 @@
   font-family: msSans;
 }
 
+/* @media only screen and (max-width: 600px) {
+  .window-container {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .window-container {
+    max-width: 80%;
+  }
+} */
+
 /* @keyframes minimize {
   from {bottom:auto}
   to {position: fixed; bottom: 0;}
@@ -193,6 +205,6 @@ ul>li>details>summary {
   min-height: fit-content;
   max-height: calc(100% - 50px);
   min-width: 70%;
-  max-width: 70%;
+
   padding: 3px;
 }

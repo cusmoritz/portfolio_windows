@@ -7,23 +7,23 @@ import { useState } from 'react';
 
 function App() {
 
-  let dragItem = document.getElementById("#title-drag");
-  let container = document.getElementById("#draggable");
-  let active = false;
-  let currentX;
-  let currentY;
-  let initialX;
-  let initialY;
-  let xOffset = 0;
-  let yOffset = 0;
+  // let dragItem = document.getElementById("#title-drag");
+  // let container = document.getElementById("#draggable");
+  // let active = false;
+  // let currentX;
+  // let currentY;
+  // let initialX;
+  // let initialY;
+  // let xOffset = 0;
+  // let yOffset = 0;
 
-  const [drag, setDrag] = useState(false);
+  // const [drag, setDrag] = useState(false);
 
-  const dragTitle = () => {
-    if (drag === true) {
-      console.log('true!')
-    }
-  }
+  // const dragTitle = () => {
+  //   if (drag === true) {
+  //     console.log('true!')
+  //   }
+  // }
 
   return (
     <BrowserRouter>
