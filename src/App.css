@@ -7,6 +7,11 @@
   font-family: msSans;
 }
 
+#resume {
+  height: 100vh;
+  width: 100vw;
+}
+
 /* @media only screen and (max-width: 600px) {
   .window-container {
     width: 100vw;

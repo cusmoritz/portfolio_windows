@@ -37,6 +37,7 @@ function App() {
           <Route exact path="/" element={<Home/>} />
           <Route path="/blog" element={<Blog/>} />
           <Route path="/projects" element={<Projects/>} />
+          <Route path="resume" element={<object id="resume" data={"./Moritz_full_res_08232023.pdf"} type="application/pdf"></object>} />
         </Routes>
       </div>
     </BrowserRouter>
