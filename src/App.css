@@ -12,6 +12,10 @@
   width: 100vw;
 }
 
+.hover {
+  position: absolute;
+}
+
 /* @media only screen and (max-width: 600px) {
   .window-container {
     width: 100vw;

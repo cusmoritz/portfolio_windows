@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Item } from "./Item";
 
 // const minimize = () => {
 //   const display = document.getElementsByClassName("window-container");
@@ -64,6 +65,7 @@ export const Home = () => {
                   <li>Interests:</li>
                   <ul>
                     <li>Skiing ⛷️</li>
+                    <li><Item title={"Mr Nice Guy"}/></li>
                     <li>Local news 📰</li>
                     <li>Music / radio 📻</li>
                   </ul>
