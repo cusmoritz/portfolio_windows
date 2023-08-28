@@ -64,10 +64,9 @@ export const Home = () => {
                   </ul>
                   <li>Interests:</li>
                   <ul>
-                    <li>Skiing ⛷️</li>
-                    <li><Item title={"Mr Nice Guy"}/></li>
-                    <li>Local news 📰</li>
-                    <li>Music / radio 📻</li>
+                    <Item title={"Skiing ⛷️"} stats={"Determination + 3"}/>
+                    <Item title={"Local news 📰"}/>
+                    <Item title={"Music / radio 📻"}/>
                   </ul>
                 <li>
                   <details closed="true">

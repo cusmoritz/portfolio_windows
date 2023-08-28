@@ -14,24 +14,12 @@
 
 .hover {
   position: absolute;
+  border: 1px solid black;
+  background-color: #ffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #808080;
 }
-
-/* @media only screen and (max-width: 600px) {
-  .window-container {
-    width: 100vw;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .window-container {
-    max-width: 80%;
-  }
-} */
-
-/* @keyframes minimize {
-  from {bottom:auto}
-  to {position: fixed; bottom: 0;}
-} */
 
 .App {
   background-color: rgb(19, 195, 195);
@@ -136,6 +124,12 @@ menu>li a {
 
 .home-tree li {
   list-style-type: none;
+  max-width: 40%;
+}
+
+.home-tree p {
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 details>summary::before {

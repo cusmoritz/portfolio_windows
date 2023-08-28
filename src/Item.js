@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-export const Item = ({title}) => {
+export const Item = ({title, stats}) => {
 
     const [hover, setHover] = useState(false);
     const [clientX, setClientX] = useState(0);
@@ -21,19 +21,19 @@ export const Item = ({title}) => {
     }
 
     const HoverText = ({clientX, clientY}) => {
-        console.log(clientX, clientY)
+        // console.log(clientX, clientY)
         const clientXString = clientX.toString();
         const clientYString = clientY.toString();
         return (
 
-                <span className="hover" style={{top: `${clientXString}px`, left: `${clientYString}px`}}>Hovering!</span>
+                <span className="hover" style={{left: `${clientXString}px`, top: `${clientYString}px`}}>{clientXString}, {clientYString}</span>
 
         )
     }
  
     return (
         <>
-        <li onMouseOver={(event) => handleMouseOver(event.pageX, event.pageY)} onMouseOut={handleMouseOut}>{title}</li>
+        <li onMouseOver={(event) => handleMouseOver(event.clientX, event.clientY)} onMouseOut={handleMouseOut}>{title}</li>
 
         {hover && (clientX !== 0) && (clientY !== 0) 
         ? 

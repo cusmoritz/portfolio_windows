@@ -3,7 +3,6 @@ import { Blog } from './Blog';
 import { Projects } from './Projects';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
 
 function App() {
 
