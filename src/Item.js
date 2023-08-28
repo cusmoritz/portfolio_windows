@@ -26,7 +26,11 @@ export const Item = ({title, stats}) => {
         const clientYString = clientY.toString();
         return (
 
-                <span className="hover" style={{left: `${clientXString}px`, top: `${clientYString}px`}}>{clientXString}, {clientYString}</span>
+                <span className="hover" style={{left: `${clientXString}px`, top: `${clientYString}px`}}>{stats.map(element => {
+                    return(
+                        <>{element}<br></br></>
+                    )
+                })}</span>
 
         )
     }
@@ -45,3 +49,11 @@ export const Item = ({title, stats}) => {
 
     )
 }
+
+// Item cost
+// Strength
+// stamina
+// cost 
+// intelect
+// durability
+// item level

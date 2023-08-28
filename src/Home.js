@@ -64,9 +64,9 @@ export const Home = () => {
                   </ul>
                   <li>Interests:</li>
                   <ul>
-                    <Item title={"Skiing ⛷️"} stats={"Determination + 3"}/>
-                    <Item title={"Local news 📰"}/>
-                    <Item title={"Music / radio 📻"}/>
+                    <Item title={"Skiing ⛷️"} stats={["Cost: High", "Strength + 1", "Stamina + 3", "Intelect — 2", "Durability: 5/5"]}/>
+                    <Item title={"Local news 📰"} stats={["Cost: Medium", "Strength + 0", "Stamina — 1", "Intelect + 5", "Durability: 1/5"]}/>
+                    <Item title={"Music / radio 📻"} stats={["Cost: Low", "Strength + 0", "Stamina + 2", "Intelect + 1", "Durability: 5/5"]}/>
                   </ul>
                 <li>
                   <details closed="true">
