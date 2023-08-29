@@ -26,11 +26,11 @@ export const Item = ({title, stats}) => {
         const clientYString = clientY.toString();
         return (
 
-                <span className="hover" style={{left: `${clientXString}px`, top: `${clientYString}px`}}>{stats.map(element => {
+                <div className="hover" style={{left: `${clientXString}px`, top: `${clientYString}px`}}>{stats.map(element => {
                     return(
-                        <>{element}<br></br></>
+                        <span>{element}<br></br></span>
                     )
-                })}</span>
+                })}</div>
 
         )
     }

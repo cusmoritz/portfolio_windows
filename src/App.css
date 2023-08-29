@@ -124,7 +124,8 @@ menu>li a {
 
 .home-tree li {
   list-style-type: none;
-  max-width: 40%;
+  max-width: 30%;
+  min-width: fit-content;
 }
 /* 
 .home-tree p {
