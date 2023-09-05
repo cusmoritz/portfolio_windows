@@ -112,14 +112,6 @@ export const Blog = () => {
                   </ul>
                 </details>
                 <details closed="true">
-                  <summary>Medium.com (2015-2016)</summary>
-                  <ul>
-                    <li>TK</li>
-                    <li>TK</li>
-                    <li>TK</li>
-                  </ul>
-                </details>
-                <details closed="true">
                   <summary>Rooster Magazine (2011-2013)</summary>
                   <ul>
                     <li>TK</li>
