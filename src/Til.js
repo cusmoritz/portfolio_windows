@@ -56,6 +56,12 @@ export const Til = () => {
             <ul className='home-tree'>
               <p className="blog-p">Things I've learned / things I have read and want to remember. </p>
               <li>
+                Sept. 18 2023: <a href="https://www.vox.com/politics/23827432/pop-crave-pop-base-politics-election-2024-trump-biden-indictment" target="_blank" rel="noreferrer">Internet Wire Service</a> ... This story looks into how we consume news in 2023, in particular with Twitter accounts Pop Crave and Pop Base.
+              </li>
+              <li>
+                Sept. 18 2023: <a href="https://www.theatlantic.com/magazine/archive/2023/09/disabled-children-institutionalization-history/674763/" target="_blank" rel="noreferrer">The Ones We Sent Away</a> ... A gut-wrenching story about being disabled and the institutions we build. (<a href="https://12ft.io/proxy?q=https%3A%2F%2Fwww.theatlantic.com%2Fmagazine%2Farchive%2F2023%2F09%2Fdisabled-children-institutionalization-history%2F674763%2F" target="_blank" rel="noreferrer">Unlocked</a>)
+              </li>
+              <li>
                 Sept. 14 2023: <a href="https://pudding.cool/projects/clocks/news/" target="_blank" rel="noreferrer">Pudding.Cool news clock</a> ... A clock made up of news headlines. Very cool.
               </li>
               <li>
