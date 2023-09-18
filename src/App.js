@@ -1,6 +1,7 @@
 import { Home } from './Home';
 import { Blog } from './Blog';
 import { Projects } from './Projects';
+import { Til } from './Til';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -34,8 +35,9 @@ function App() {
         </div> */}
         <Routes>
           <Route exact path="/" element={<Home/>} />
-          <Route path="/blog" element={<Blog/>} />
+          <Route path="/writings" element={<Blog/>} />
           <Route path="/projects" element={<Projects/>} />
+          <Route path="/til" element={<Til/>} />
           <Route path="/resume" element={<object id="resume" aria-label='Moritz resume' alt="Moritz resume" data={"./Moritz_full_res_08282023.pdf"} type="application/pdf"></object>} />
         </Routes>
       </div>

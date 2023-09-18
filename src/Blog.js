@@ -15,7 +15,7 @@ export const Blog = () => {
     <>
       <div id={minimize === true ? "minimize" : "window-container"}>
         <div className={minimize === true ? "title-bar-min" : "title-bar"}>
-          <div className='title-text'>www.marcus.me {">"} blog</div>
+          <div className='title-text'>www.marcus.me {">"} writings</div>
             <div>
               <button onClick={() => setMinimize(!minimize)}>_</button>
               <button className='help-button'><strong>?</strong></button>
@@ -38,7 +38,7 @@ export const Blog = () => {
             selected={true} 
             aria-selected="true" 
             label="Blog">
-                <a href="/blog">Musings</a>
+                <a href="/writings">Writings</a>
           </li>
           <li 
             role="tab" 
@@ -47,11 +47,18 @@ export const Blog = () => {
             label="Projects">
                 <a href="/projects">Projects</a>
           </li>
+          <li 
+            role="tab" 
+            selected={false}
+            aria-selected="false" 
+            label="Projects">
+                <a href="/til">TIL</a>
+          </li>
           </menu>
 
         <div className='main-content-container' role="tabpanel">
           <div className='main-content'>
-            <h2>Historical writings / musings / personal blog (tk) ✒️</h2>
+            <h2>Historical writings ✒️</h2>
             <ul className='home-tree'>
               <p className="blog-p">Writings and articles for various sites / papers / magazines in reverse chronological order. </p>
               <p className="blog-p">Note to readers: Not all of these are good, and many are pretty old! It was an important part of my life, so worth cataloging.</p>

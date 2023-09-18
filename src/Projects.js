@@ -32,7 +32,7 @@ export const Projects = () => {
                 selected={false}
                 aria-selected="false" 
                 label="Blog">
-                    <a href="/blog">Musings</a>
+                    <a href="/writings">Writings</a>
             </li>
             <li 
                 role="tab" 
@@ -40,6 +40,13 @@ export const Projects = () => {
                 aria-selected="true" 
                 label="Projects">
                     <a href="/projects">Projects</a>
+            </li>
+            <li 
+                role="tab" 
+                selected={false}
+                aria-selected="false" 
+                label="Projects">
+                    <a href="/til">TIL</a>
             </li>
             </menu>
 

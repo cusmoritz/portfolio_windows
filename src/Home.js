@@ -39,7 +39,7 @@ export const Home = () => {
               selected={false} 
               aria-selected="false" 
               label="Blog">
-                  <a href="/blog">Musings</a>
+                  <a href="/writings">Writings</a>
           </li>
           <li 
               role="tab" 
@@ -48,19 +48,26 @@ export const Home = () => {
               label="Projects">
                   <a href="/projects">Projects</a>
           </li>
+          <li 
+              role="tab" 
+              selected={false}
+              aria-selected="false" 
+              label="Projects">
+                  <a href="/til">TIL</a>
+          </li>
           </menu>
 
           <div className='main-content-container' role="tabpanel">
           <div className='main-content'>
             <h2>Welcome to my home on the World Wide Web! 🌐</h2>
               <ul className="home-tree">
-                <li><a href="/blog">Musings</a></li>
+                <li><a href="/blog">Writings</a></li>
                 <li>Work:</li>
                   <ul>
                     <li><a href="/projects">Software developer</a> 💾</li>
                     <li>CDL driver 🚛</li>
                     <li>Copy editor ✒️</li>
-                    <li><a href="/blog">Writer</a> 📄</li>
+                    <li><a href="/writings">Writer</a> 📄</li>
                   </ul>
                   <li>Interests:</li>
                   <ul>
