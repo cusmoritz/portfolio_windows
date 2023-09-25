@@ -56,10 +56,28 @@ export const Til = () => {
             <ul className='home-tree'>
               <p className="blog-p">Things I've learned / things I have read and want to remember. </p>
               <li>
-                Sept. 18 2023: <a href="https://www.vox.com/politics/23827432/pop-crave-pop-base-politics-election-2024-trump-biden-indictment" target="_blank" rel="noreferrer">Internet Wire Service</a> ... This story looks into how we consume news in 2023, in particular with Twitter accounts Pop Crave and Pop Base.
+                Sept. 25 2023: <a href="https://theathletic.com/4888144/2023/09/22/college-football-road-trip/" target="_blank" rel="noreferrer">Ultimate College Football Roadtrip</a> (The Athletic) ... A fun story about a sportswriter taking a huge roadtrip for some football.
               </li>
               <li>
-                Sept. 18 2023: <a href="https://www.theatlantic.com/magazine/archive/2023/09/disabled-children-institutionalization-history/674763/" target="_blank" rel="noreferrer">The Ones We Sent Away</a> ... A gut-wrenching story about being disabled and the institutions we build. (<a href="https://12ft.io/proxy?q=https%3A%2F%2Fwww.theatlantic.com%2Fmagazine%2Farchive%2F2023%2F09%2Fdisabled-children-institutionalization-history%2F674763%2F" target="_blank" rel="noreferrer">Unlocked</a>)
+                Sept. 24 2023: <a href="https://www.theatlantic.com/technology/archive/2023/09/google-search-size-usefulness-decline/675409/" target="_blank" rel="noreferrer">The Tragedy of Google Search</a> (The Atlantic) ... Yet another story about how Google is becoming less and less useful.
+              </li>
+              <li>
+                Sept. 21 2023: <a href="https://www.sfgate.com/sports/article/root-for-coach-prime-sanders-colorado-18380922.php" target="_blank" rel="noreferrer">Screw It, I'll Root For Colorado</a> (SF Gate) ... Drew Magary writes about how fun it is to watch the Colorado Buffs and Deion Sanders.
+              </li>
+              <li>
+                Sept. 21 2023: <a href="https://www.vice.com/en/article/pkaq9z/us-cities-have-a-staggering-problem-of-kia-and-hyundai-thefts-this-data-shows-it" target="_blank" rel="noreferrer">KIA Thefts</a> (Vice) ... People are stealing Kias and Hyundia so often cities are suing the companies.
+              </li>
+              <li>
+                Sept. 20 2023: <a href="https://www.rollingstone.com/culture/culture-news/nfts-worthless-researchers-find-1234828767/" target="_blank" rel="noreferrer">Worthless NFTs </a> (Rolling Stone) ... The NFT boom is all bust. 
+              </li>
+              <li>
+                Sept. 19 2023: <a href="https://kylechayka.substack.com/p/essay-the-digital-death-of-collecting" target="_blank" rel="noreferrer">The Digital Death of Collecting</a> (Substack) ... An essay reminiscing about how we are no longer in charge of our own music, among other thigns. 
+              </li>
+              <li>
+                Sept. 18 2023: <a href="https://www.vox.com/politics/23827432/pop-crave-pop-base-politics-election-2024-trump-biden-indictment" target="_blank" rel="noreferrer">Internet Wire Service</a> (Vox) ... This story looks into how we consume news in 2023, in particular with Twitter accounts Pop Crave and Pop Base.
+              </li>
+              <li>
+                Sept. 18 2023: <a href="https://www.theatlantic.com/magazine/archive/2023/09/disabled-children-institutionalization-history/674763/" target="_blank" rel="noreferrer">The Ones We Sent Away</a> (The Atlantic) ... A gut-wrenching story about being disabled and the institutions we build. (<a href="https://12ft.io/proxy?q=https%3A%2F%2Fwww.theatlantic.com%2Fmagazine%2Farchive%2F2023%2F09%2Fdisabled-children-institutionalization-history%2F674763%2F" target="_blank" rel="noreferrer">Unlocked</a>)
               </li>
               <li>
                 Sept. 14 2023: <a href="https://pudding.cool/projects/clocks/news/" target="_blank" rel="noreferrer">Pudding.Cool news clock</a> ... A clock made up of news headlines. Very cool.
@@ -68,10 +86,10 @@ export const Til = () => {
                 Sept. 13 2023: <a href="https://presswatchers.org/2023/09/cnn-should-become-the-anti-fox-pro-truth-network/" target="_blank" rel="noreferrer">CNN should be the anti-Fox</a> ... Presswatch.org's thoughts on CNN and its future. "CNN, it would say, is for the people."
               </li>
               <li>
-                Sept. 12 2023: <a href="https://www.latimes.com/entertainment-arts/books/story/2023-09-11/lets-put-a-stake-in-the-great-man-biography-starting-with-isaacsons-elon-musk" target="_blank" rel="noreferrer">Let's put a stake in the 'great man' biography</a> ... LA Times review of Walter Isaacson's "Elon Musk" biography and the problems it has.
+                Sept. 12 2023: <a href="https://www.latimes.com/entertainment-arts/books/story/2023-09-11/lets-put-a-stake-in-the-great-man-biography-starting-with-isaacsons-elon-musk" target="_blank" rel="noreferrer">Let's put a stake in the 'great man' biography</a> (LA Times) ... LA Times review of Walter Isaacson's "Elon Musk" biography and the problems it has.
               </li>
               <li>
-                Sept. 11 2023: <a href="https://chuckpalahniuk.substack.com/p/gloves-off-round-xxxvi" target="_blank" rel="noreferrer">Gloves Off Round XXXVI</a> ... Chuck P. gives feedback on a user-submitted short story.
+                Sept. 11 2023: <a href="https://chuckpalahniuk.substack.com/p/gloves-off-round-xxxvi" target="_blank" rel="noreferrer">Gloves Off Round XXXVI</a> (Substack) ... Chuck P. gives feedback on a user-submitted short story.
               </li>
               <li>
                 Sept. 11 2023: <a href="https://chuckpalahniuk.substack.com/p/another-boringly-obvious-observation" target="_blank" rel="noreferrer">Chuck Palahniuk's Substack</a> ... I didn't know Chuck P. had a substack, but he's a great writer. This specific story is about the Ross Steering Gear recall. "Write with your whole person, but mostly with your legs."
@@ -99,7 +117,10 @@ export const Til = () => {
                 Notable artists include Pete Seeger, Sturgill Simpson, and Woody Guthrie.
               </li>
               <li>
-                Sept. 1 2023: <a href="https://www.theverge.com/23846048/google-search-memes-images-pagerank-altavista-seo-keywords" target="_blank" rel="noreferrer">The end of the Googleverse</a> ... an interesting article about Google setting about solidifying its own demize.
+                Sept. 1 2023: <a href="https://www.theverge.com/23846048/google-search-memes-images-pagerank-altavista-seo-keywords" target="_blank" rel="noreferrer">The end of the Googleverse</a> (The Verge) ... an interesting article about Google setting about solidifying its own demize.
+              </li>
+              <li>
+                Aug. 25 2023: <a href="https://www.tracklib.com/blog/sample-breakdown-50-years-hip-hop-sampling" target="_blank" rel="noreferrer">50 Years of Hip Hop Sampling</a> (Tracklib) ... Sweet visualization of some of the most famous samples in hip hop history.
               </li>
             </ul>
           </div>
