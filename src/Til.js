@@ -56,6 +56,21 @@ export const Til = () => {
             <ul className='home-tree'>
               <p className="blog-p">Things I've learned / things I have read and want to remember. </p>
               <li>
+                Dec. 18 2023: <a href="https://aftermath.site/embracer-layoffs-executive-saudi" target="_blank" rel="noreferrer">Executives Should Be Facing The Music, Not Laying Off Workers</a> (Aftermath) ... The headline says it all, but this article articulates a hedge fund gobbling up video game devellopment companies and then firing all (most of) the employees.
+              </li>
+              <li>
+                Dec. 10 2023: <a href="https://badcyber.com/dieselgate-but-for-trains-some-heavyweight-hardware-hacking/" target="_blank" rel="noreferrer">Dieselgate, but for trains – some heavyweight hardware hacking</a> (BadCyber) ... Read this wild (translated) story about a company electronically bricking <i>TRAINS</i> in Poland.
+              </li>
+              <li>
+                Nov. 30 2023: <a href="https://www.sfgate.com/sf-culture/article/elon-musk-nyt-interview-18524602.php" target="_blank" rel="noreferrer">The end of Elon Musk</a> (SFGate) ... “Don't advertise,” he said to the audience. “If someone is going to try to blackmail me with advertising? Blackmail me with money? Go f—k yourself."
+              </li>
+              <li>
+                Nov. 27 2023: <a href="https://www.theverge.com/2023/11/27/23978042/popular-science-digital-magazine-discontinued" target="_blank" rel="noreferrer">After 151 years, Popular Science will no longer offer a magazine</a> (The Verge) ... This is so sad, man. This magazine (I'm sure) inspired millions and now only lives on the internet. #RIP.
+              </li>
+              <li>
+                Oct. 15 2023: <a href="https://www.propublica.org/article/local-newspaper-legacy-springfield-massachusetts" target="_blank" rel="noreferrer">ELocal Newspapers Are Vanishing. How Should We Remember Them?</a> (ProPublica) ... They really are. It will be a sad day when local newspapers dissapear.
+              </li>
+              <li>
                 Sept. 25 2023: <a href="https://theathletic.com/4888144/2023/09/22/college-football-road-trip/" target="_blank" rel="noreferrer">Ultimate College Football Roadtrip</a> (The Athletic) ... A fun story about a sportswriter taking a huge roadtrip for some football.
               </li>
               <li>
@@ -113,8 +128,7 @@ export const Til = () => {
                 Sept. 6 2023: <a href="https://tylervigen.com/the-mystery-of-the-bloomfield-bridge" target="_blank" rel="noreferrer">The Mystery of the Bloomfield Bridge</a> ... A funny story about one man's uninhibited search for meaning in architecture and city development with a mysterious bridge outside of Minneapolis.
               </li>
               <li>
-                Sept. 4 2023: <a href="https://folkways.si.edu/fight-like-hell-music-for-labor-day" target="_blank" rel="noreferrer">Fight Like Hell: Music for Labor Day</a> ... a playlist featuring songs and artists that are very pro-worker.<br></br>
-                Notable artists include Pete Seeger, Sturgill Simpson, and Woody Guthrie.
+                Sept. 4 2023: <a href="https://folkways.si.edu/fight-like-hell-music-for-labor-day" target="_blank" rel="noreferrer">Fight Like Hell: Music for Labor Day</a> ... a playlist featuring songs and artists that are very pro-worker. Notable artists include Pete Seeger, Sturgill Simpson, and Woody Guthrie.
               </li>
               <li>
                 Sept. 1 2023: <a href="https://www.theverge.com/23846048/google-search-memes-images-pagerank-altavista-seo-keywords" target="_blank" rel="noreferrer">The end of the Googleverse</a> (The Verge) ... an interesting article about Google setting about solidifying its own demize.
@@ -128,7 +142,7 @@ export const Til = () => {
 
         <div className="status-bar">
           <span className="status-text">37 object(s)</span>
-          <span className="status-size">15.80MB</span>
+          <span className="status-size">19.66MB</span>
         </div>
 
         </>

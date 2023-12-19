@@ -72,6 +72,21 @@ export const Projects = () => {
 
                   <li>
                   <details closed="true">
+                      <summary>Web Development Internship</summary>
+                      <ul>
+                        <li><u>Title:</u> Sportsmansguide.com</li>
+                        <li><u>Link:</u> <a href="https://www.sportsmansguide.com/">Sportsmansguide.com</a></li>
+                        <li><u>Purpose:</u> Web development internship.</li>
+                        <li><u>Worked On:</u> Crecera Brands (parent company) has aspirations to buy some other small sportsmans-related websites. <br></br>The goal during my time was to help with building the Commercetools headless API that Sportsmansguide.com and these future websites could interact with. <br></br>I also maintained Section 508 accessibility, regularly pushed code to production, broke things once or twice, <br></br>and contributed in modernizing (with Angular) some of the web pages to facilitate multiple websites from one administrative tool.</li>
+                        <li><u>Built with:</u> C#, Angular, CSS, Material UI, Oracle / MySQL, REST APIs, JSON, XML.</li>
+                        <li><u>Learned:</u> Angular (Javascript framework), ASP.NET and Razor pages, Oracle and MySQL, gun shipping laws, teamwork, Azure DevOps, CloudFlare, Commercetools, Section 508.</li>
+                        <li><u>Concurrent users:</u> Many thousands. (> $28M yearly in revenue through the website.)</li>
+                      </ul>
+                  </details>  
+                  </li>
+                  
+                  <li>
+                  <details closed="true">
                       <summary>Newsfeed Application</summary>
                       <ul>
                         <li><u>Title:</u> Streamer (needs a better name I know)</li>
@@ -154,8 +169,8 @@ export const Projects = () => {
             </div>
 
             <div className="status-bar">
-              <span className="status-text">6 object(s)</span>
-              <span className="status-size">7.30MB</span>
+              <span className="status-text">7 object(s)</span>
+              <span className="status-size">80.04MB</span>
             </div>
           </>
         )}
