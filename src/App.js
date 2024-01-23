@@ -38,7 +38,7 @@ function App() {
           <Route path="/writings" element={<Blog/>} />
           <Route path="/projects" element={<Projects/>} />
           <Route path="/til" element={<Til/>} />
-          <Route path="/resume" element={<object id="resume" aria-label='Moritz resume' alt="Moritz resume" data={"./Moritz_full_res_08282023.pdf"} type="application/pdf"></object>} />
+          <Route path="/resume" element={<object id="resume" aria-label='Moritz resume' alt="Moritz resume" data={"./Moritz_Full_resume12182023.pdf"} type="application/pdf"></object>} />
         </Routes>
       </div>
     </BrowserRouter>
